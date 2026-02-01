@@ -1,26 +1,57 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mats Alleji | Fullstack Developer | React, Node.js, Vue.js</title>
-    <meta name="description" content="Fullstack Developer based in Stockholm, Sweden. Specializing in React, Node.js, Vue.js, and modern web technologies. Building scalable, user-focused applications." />
-    <meta name="author" content="Mats Alleji" />
-    <meta name="keywords" content="Fullstack Developer, React Developer, Node.js, Vue.js, Stockholm, Sweden, Web Developer, Frontend, Backend" />
-    <link rel="canonical" href="https://matsalleji.dev" />
 
-    <meta property="og:title" content="Mats Alleji | Fullstack Developer" />
-    <meta property="og:description" content="Building scalable, modern, and user-focused web applications" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <!-- Critical CSS: prevents white flash, enables immediate paint -->
+  <style>
+    :root {
+      --background: 222 47% 6%;
+      --foreground: 210 40% 98%
+    }
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@matsalleji" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    html, body {
+      overflow-x: hidden;
+      -webkit-overflow-scrolling: touch
+    }
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    body {
+      background: hsl(var(--background));
+      color: hsl(var(--foreground));
+      min-height: 100vh;
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased
+    }
+
+    #root {
+      min-height: 100vh;
+      overflow-x: hidden
+    }
+  </style>
+  <title>Mats Alleji | Junior Full-Stack Developer | React.js, Node.js, REST APIs | Microsoft Certified</title>
+  <meta name="description"
+    content="Junior Full-Stack Developer in Stockholm. React.js, Node.js, REST APIs, Firebase. Microsoft Certified (AZ-900, PL-900, AI-900). Open to junior and entry-level opportunities." />
+  <meta name="author" content="Mats Alleji" />
+  <meta name="keywords"
+    content="Junior Full-Stack Developer, React.js, Node.js, REST APIs, JavaScript, TypeScript, Vue.js, Stockholm, Sweden, Frontend Developer, Backend Developer, Microsoft Certified, AZ-900, PL-900, AI-900" />
+  <link rel="canonical" href="https://matsalleji.cloud" />
+
+  <meta property="og:title" content="Mats Alleji | Junior Full-Stack Developer | React.js & Node.js" />
+  <meta property="og:description"
+    content="Junior Full-Stack Developer. React.js, Node.js, REST APIs. Microsoft Certified (AZ-900, PL-900, AI-900). Stockholm, Sweden." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@matsalleji" />
+  <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>

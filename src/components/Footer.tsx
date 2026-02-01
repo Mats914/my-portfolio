@@ -1,4 +1,5 @@
 import { Linkedin, Github } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const socialLinks = [
   { icon: Linkedin, href: "https://www.linkedin.com/in/mats-alleji/", label: "LinkedIn" },
@@ -6,6 +7,7 @@ const socialLinks = [
 ];
 
 export const Footer = () => {
+  const { t } = useLanguage();
   const currentYear = new Date().getFullYear();
 
   return (
@@ -15,7 +17,7 @@ export const Footer = () => {
           <div className="flex items-center gap-2">
             <span className="text-xl font-bold gradient-text">portfolio</span>
             <span className="text-muted-foreground text-sm">
-              © {currentYear} Mats Alleji – Fullstackutvecklare
+              © {currentYear} {t.footer.copyright}
             </span>
           </div>
 

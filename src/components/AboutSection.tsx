@@ -1,18 +1,19 @@
-import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { MapPin, Briefcase, Code2, Users } from "lucide-react";
-
-const highlights = [
-  { icon: Code2, text: "Nyfiken & Resultatinriktad" },
-  { icon: Users, text: "Agil Teamspelare" },
-  { icon: MapPin, text: "Baserad i Stockholm" },
-  { icon: Briefcase, text: "Öppen för möjligheter" },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const AboutSection = () => {
+  const { t } = useLanguage();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+
+  const highlights = [
+    { icon: Code2, text: t.about.curious },
+    { icon: Users, text: t.about.teamPlayer },
+    { icon: MapPin, text: t.about.location },
+    { icon: Briefcase, text: t.about.available },
+  ];
 
   return (
     <section id="about" className="section-padding">
@@ -25,10 +26,11 @@ export const AboutSection = () => {
           className="max-w-4xl mx-auto"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-            Om <span className="gradient-text">Mig</span>
+            {t.about.title.split(" ")[0]}{" "}
+            <span className="gradient-text">{t.about.title.split(" ").slice(1).join(" ")}</span>
           </h2>
           <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-            Lär dig känna mig bättre
+            {t.about.subtitle}
           </p>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -36,20 +38,21 @@ export const AboutSection = () => {
               initial={{ opacity: 0, x: -20 }}
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="space-y-6"
+              className="space-y-6 min-w-0"
             >
               <p className="text-lg text-foreground/90 leading-relaxed">
-                Jag är en <strong className="text-primary">nyfiken och resultatinriktad Fullstackutvecklare</strong> med 
-                erfarenhet av både frontend- och backendprojekt. Specialist på React.js, Node.js, Vue.js och modern webbutveckling.
+                {t.about.intro}
               </p>
+              <ul className="space-y-2 text-muted-foreground">
+                {t.about.highlights.map((item, i) => (
+                  <li key={i} className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
               <p className="text-muted-foreground leading-relaxed">
-                Van att arbeta agilt och leverera högkvalitativa lösningar som förbättrar användarupplevelsen. 
-                Min approach kombinerar teknisk excellens med ett agilt mindset, vilket säkerställer att jag levererar 
-                värde genom effektivt teamarbete.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Baserad i Stockholm, Sverige, söker jag möjlighet att bidra med teknisk kunskap och kreativ problemlösning 
-                i ett innovativt team. Öppen för heltidsanställningar, konsultuppdrag och projektmöjligheter.
+                {t.about.closing}
               </p>
             </motion.div>
 
