@@ -1,101 +1,114 @@
-# Backlinks Guide – Portfolio Promotion
+# Guida till backlinks – Portfolio
 
-Use these templates to add your portfolio link (https://matsalleji.cloud) across platforms and improve SEO.
+Den här filen hjälper dig att sprida länkarna till ditt portfolio på ett sätt som stärker din synlighet och SEO.
 
 ---
 
-## 1. GitHub – Add to each project README
+## Länkar att använda
 
-Add this section at the end of each project README:
+| Beskrivning | Länk |
+|-------------|------|
+| **Live webbplats** | [https://matsalleji.cloud/](https://matsalleji.cloud/) |
+| **GitHub-repositoriet** | [https://github.com/Mats914/my-portfolio](https://github.com/Mats914/my-portfolio) |
+
+---
+
+## 1. GitHub – i varje projekts README
+
+Lägg till en av dessa sektioner i slutet av README för dina andra projekt:
+
+**Alternativ A:**
 
 ```markdown
 ---
 
 ## Portfolio
 
-See more of my projects: **[Mats Alleji – Full-Stack Developer Stockholm](https://matsalleji.cloud)**
+Fler projekt och CV: **[Mats Alleji – Full-Stack Developer Stockholm](https://matsalleji.cloud/)**
+
+Källkod för denna webbplats: [my-portfolio på GitHub](https://github.com/Mats914/my-portfolio)
 ```
 
-Or shorter:
+**Alternativ B (kort):**
 
 ```markdown
-📌 [View my portfolio](https://matsalleji.cloud)
+📌 [Portfolio](https://matsalleji.cloud/) · [Källkod (GitHub)](https://github.com/Mats914/my-portfolio)
 ```
 
 ---
 
-## 2. LinkedIn – When posting about projects
+## 2. LinkedIn – när du postar om projekt
 
-**Template for project posts:**
+**När du presenterar ett nytt projekt:**
 
-> Just finished [project name] – [brief description].
-> Built with [technologies].
+> Jag har precis gjort klart [projektnamn] – [kort beskrivning]. Byggt med [tekniker].
 >
-> 🔗 GitHub: [https://github.com/Mats914/my-portfolio]
-> 🌐 Portfolio: https://matsalleji.cloud
+> 🔗 **GitHub:** https://github.com/Mats914/my-portfolio  
+> 🌐 **Live portfolio:** https://matsalleji.cloud/
 
-**Template for experience/role updates:**
+**När du uppdaterar om erfarenhet eller roll:**
 
-> Excited to share [achievement/project].
-> [Details]
+> [Kort text om vad du delar.]
 >
-> Check out my portfolio for more projects: https://matsalleji.cloud
+> Se fler projekt och CV på: https://matsalleji.cloud/
 
 ---
 
-## 3. Tech forums & developer groups
+## 3. Forum och utvecklargrupper
 
-When sharing projects or experience:
+Använd båda länkarna när det passar:
 
-- **Reddit (r/webdev, r/learnprogramming):** Add portfolio link in comments when relevant
-- **Discord/Slack:** Include in your intro or when sharing work
-- **Stack Overflow:** Add to your profile "Website" field: https://matsalleji.cloud
-- **Dev.to / Hashnode:** Link in bio and when writing about projects
-
----
-
-## 4. Regular sharing – LinkedIn, Twitter, GitHub, Reddit
-
-Share your portfolio link regularly on social media. Each share helps with visits and signals to search engines that the site is active and trusted.
-
-| Platform | How to use |
-|----------|------------|
-| **LinkedIn** | Share project updates, new skills, or "what I built this week" posts. Include the portfolio link. |
-| **Twitter/X** | Tweet about projects, tech learnings, or job search. Pin a tweet with your portfolio. |
-| **GitHub** | Commit regularly, update READMEs, add portfolio link in profile and repos. |
-| **Reddit** | r/webdev, r/learnprogramming, r/cscareerquestions – share when relevant, add portfolio in comments. |
+- **Reddit** (t.ex. r/webdev, r/learnprogramming): Lägg till portfolio-länken i kommentarer när du delar projekt eller tips.
+- **Discord / Slack:** Inkludera portfolio-länken i din presentation eller när du visar upp arbete.
+- **Stack Overflow:** Fyll i fältet "Website" med https://matsalleji.cloud/
+- **Dev.to / Hashnode:** Länka till portfolio i bio och i artiklar om dina projekt.
 
 ---
 
-## 5. Content ideas – short articles & project updates
+## 4. Regelbunden delning
 
-Write short posts and share them with your portfolio link:
+Dela länkarna regelbundet så att fler ser ditt arbete och sökmotorer uppfattar webbplatsen som aktiv.
 
-- **"What I built this month"** – 2–3 projects, technologies used, link to portfolio
-- **"New project: [name]"** – brief description, tech stack, link to live demo or portfolio
-- **"Lessons from [project]"** – what you learned, challenges, link to the project on your portfolio
-- **"Job search update"** – open to opportunities, link to portfolio for projects and CV
+| Plattform | Hur |
+|-----------|-----|
+| **LinkedIn** | Korta uppdateringar om projekt eller färdigheter, med länk till portfolio. |
+| **Twitter/X** | Tweets om projekt eller jobbsök, eventuellt en pinnad tweet med portfolio-länk. |
+| **GitHub** | Länka till portfolio i profil och i README för relevanta repos. |
+| **Reddit** | Dela portfolio-länken när du svarar eller startar trådar där det är relevant. |
 
-**Template:**
+---
 
-> [Hook or headline]
+## 5. Innehållsidéer – korta texter och uppdateringar
+
+Exempel på texter du kan använda tillsammans med länkarna:
+
+- **"Vad jag byggde den här månaden"** – några rader om 2–3 projekt + länk till portfolio.
+- **"Nytt projekt: [namn]"** – kort beskrivning, tech stack, länk till live eller portfolio.
+- **"Lärdomar från [projekt]"** – vad du lärt dig, utmaningar, länk till projektet på portfolio.
+- **"Jobbsök"** – att du söker möjligheter, med länk till portfolio (projekt + CV).
+
+**Mall:**
+
+> [Rubrik eller inledning]
 >
-> [2–3 sentences about project/learning]
+> [1–3 meningar om projektet eller lärdomen.]
 >
-> 👉 Full portfolio & projects: https://matsalleji.cloud
+> 👉 **Portfolio:** https://matsalleji.cloud/  
+> 👉 **Källkod:** https://github.com/Mats914/my-portfolio
 
 ---
 
-## Quick links
+## Snabbreferens
 
-| Platform  | Where to add |
-|-----------|---------------|
-| LinkedIn  | Profile "Website", About, every project post |
-| GitHub    | Profile, each repo README |
-| Twitter/X | Bio link, pinned tweet |
-| Reddit    | Comments when sharing work or advice |
-| Stack Overflow | Profile website |
+| Plattform | Var du lägger länkarna |
+|-----------|-------------------------|
+| LinkedIn | Profil (Webbplats), Om, och i inlägg om projekt |
+| GitHub | Profil + README i varje repo |
+| Twitter/X | Bio, eventuellt pinnad tweet |
+| Reddit | I kommentarer när du delar arbete eller råd |
+| Stack Overflow | Profilfältet "Website" |
 
 ---
 
-**Your portfolio URL:** https://matsalleji.cloud
+**Live webbplats:** [https://matsalleji.cloud/](https://matsalleji.cloud/)  
+**GitHub-repo:** [https://github.com/Mats914/my-portfolio](https://github.com/Mats914/my-portfolio)
