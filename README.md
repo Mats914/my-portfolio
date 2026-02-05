@@ -2,6 +2,12 @@
 
 Welcome to my personal portfolio! This project showcases my skills and projects using modern web technologies.
 
+## Screenshots
+
+| Portfolio | Google PageSpeed Insights |
+|-----------|---------------------------|
+| ![Portfolio](images/httpsmatsalleji.cloud.png) | ![PageSpeed](images/Google%20PageSpeed%20Insights.png) |
+
 ## Built With
 
 - **Vite** – A fast frontend build tool
@@ -29,9 +35,11 @@ To run this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Mats914/my-portfolio.git
+   ```
 
+2. Navigate to the project folder: `cd my-portfolio`
 
-2. Navigate to the project folder: cd my-portfolio
-3. Install dependencies: npm install
-4. Start the development server: npm run dev
+3. Install dependencies: `npm install`
+
+4. Start the development server: `npm run dev`
 
